@@ -1,0 +1,44 @@
+name: e_commerce_app
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.3.1
+  flutter_riverpod: ^2.6.1
+  flutter_secure_storage: ^9.0.0
+  dio: ^5.9.0
+  cached_network_image: ^3.2.3
+  flutter_screenutil: ^5.9.3
+  shimmer: ^3.0.0
+  equatable: any
+
+  cupertino_icons: ^1.0.8
+  razorpay_sdk:
+    git:
+      url: https://github.com/NamithaNaik/Payment_Integration.git
+      path: packages/razorpay_sdk
+      ref: main
+  google_maps_flutter: ^2.13.1
+  geolocator: ^13.0.1
+  permission_handler: ^11.3.1
+  trident_tracker:
+    git:
+      url: https://github.com/sha158/trident_tracker.git
+      ref: main
+  flutter_animate: ^4.5.2
+  geocoding: ^2.0.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
