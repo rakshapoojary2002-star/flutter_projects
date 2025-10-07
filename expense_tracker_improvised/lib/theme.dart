@@ -124,7 +124,7 @@ class MaterialTheme {
     scaffoldBackgroundColor: colorScheme.surface,
 
     // Card styling
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       elevation: 0,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       color:
@@ -187,7 +187,7 @@ class MaterialTheme {
     ),
 
     // Dialog styling
-    dialogTheme: DialogTheme(
+    dialogTheme: DialogThemeData(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       elevation: 8,
     ),
